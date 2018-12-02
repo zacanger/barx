@@ -29,7 +29,10 @@
     "x",
     "x11"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "ntk": "2.2.0",
+    "zeelib": "8.2.2"
+  },
   "devDependencies": {
     "babel-eslint": "10.0.1",
     "eslint": "5.9.0",
