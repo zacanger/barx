@@ -1,0 +1,32 @@
+{
+  "name": "xbar",
+  "description": "xbar",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Anger",
+    "email": "zac@zacanger.com",
+    "url": "https://zacanger.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index",
+    "test": ""
+  },
+  "homepage": "https://github.com/zacanger/xbar#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacanger/xbar.git"
+  },
+  "bugs": "https://github.com/zacanger/xbar/issues",
+  "keywords": [
+    "",
+    "xbar"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
