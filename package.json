@@ -1,6 +1,6 @@
 {
   "name": "xbar",
-  "description": "xbar",
+  "description": "Bar for X window managers, in Node",
   "version": "0.0.1",
   "author": {
     "name": "Zac Anger",
@@ -11,8 +11,9 @@
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
-    "start": "node index",
-    "test": ""
+    "preversion": "npm t",
+    "test": "npm run test:lint",
+    "test:lint": "eslint -c .eslintrc.json *.js"
   },
   "homepage": "https://github.com/zacanger/xbar#readme",
   "repository": {
@@ -21,11 +22,24 @@
   },
   "bugs": "https://github.com/zacanger/xbar/issues",
   "keywords": [
-    "",
-    "xbar"
+    "bar",
+    "statusbar",
+    "window-manager",
+    "wm",
+    "x",
+    "x11"
   ],
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint": "5.9.0",
+    "eslint-config-zacanger": "3.4.1",
+    "eslint-plugin-babel": "5.3.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "8.0.0",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-unicorn": "6.0.1"
+  },
   "engines": {
     "node": ">=10.0.0"
   }
