@@ -1,4 +1,4 @@
-# xbar
+# barx
 
 Bar for X window managers, in Node
 
@@ -6,7 +6,7 @@ Bar for X window managers, in Node
 
 ## Installation
 
-`npm i -g xbar`
+`npm i -g barx`
 
 ## Usage
 
