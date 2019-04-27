@@ -30,9 +30,8 @@
     "x11"
   ],
   "dependencies": {
-    "ntk": "2.2.0",
+    "is-program-installed": "1.1.3",
     "systeminformation": "4.1.6",
-    "x11": "2.3.0",
     "zeelib": "8.6.0"
   },
   "devDependencies": {

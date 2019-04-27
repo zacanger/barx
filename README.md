@@ -8,6 +8,8 @@ Bar for X window managers, in Node
 
 `npm i -g barx`
 
+Requires `dzen2` (for now)
+
 ## Usage
 
 **TODO**
